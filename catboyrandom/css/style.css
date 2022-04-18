@@ -1,0 +1,49 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+h1 {
+    text-align: center;    
+    font: 52px "Comic Sans", Arial, sans-serif;
+    color: lavender; 
+}
+
+h2{
+    text-align: center;    
+    font: 36px "Comic Sans", Arial, sans-serif;
+    color: purple; 
+}
+
+h3 {
+    text-align: center;    
+    font: 32px "Comic Sans", Arial, sans-serif;
+    color: hotpink; 
+}
+button {
+    color: black;
+    font: 32px "Comic Sans", Arial, sans-serif; 
+}
+button:hover {
+    color: skyblue;
+}
+
+#catboy {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  max-height: 600px;
+  border: 3px dotted pink;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
