@@ -10,37 +10,49 @@
 /******************************************
 /* LAYOUT
 /*******************************************/
+body {
+    background-image: url("cloudybackground.jpg");
+    background-color: transparent;
+}
+
 h1 {
     text-align: center;    
-    font: 52px "Comic Sans", Arial, sans-serif;
-    color: lavender; 
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    color: #ec9df7; 
 }
 
 h2{
-    text-align: center;    
-    font: 36px "Comic Sans", Arial, sans-serif;
-    color: purple; 
+    text-align: center;  
+    font-family: 'Bebas Neue', cursive;
+    font-size: 36px;
+    color: #aa8df7; 
 }
 
 h3 {
     text-align: center;    
-    font: 32px "Comic Sans", Arial, sans-serif;
-    color: hotpink; 
+    font-size: 32px;
+    font-family: 'Lobster', cursive;
+    color: #86bef7; 
 }
 button {
-    color: black;
-    font: 32px "Comic Sans", Arial, sans-serif; 
+    color: #86bef7;
+    font-family: 'Lobster', cursive;
+    font-size: 32px;
 }
 button:hover {
-    color: skyblue;
+    color: #ec9df7;
+}
+
+section{
+  display: flex; 
+  justify-content: center; 
 }
 
 #catboy {
-  display: block;
-  align-items: center;
-  justify-content: center;
-  max-height: 600px;
-  border: 3px dotted pink;
+ max-height: 600px;
+ border: 3px dotted pink;
+ margin-bottom: 30px;
 }
 
 
