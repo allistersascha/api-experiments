@@ -1,6 +1,21 @@
 /******************************************
 /* CSS
 /*******************************************/
+/* media queries i guess? */
+@media all and (max-width: 500px) {
+    main, .bottom {
+        width: 100%;
+    }
+    
+}
+
+
+@media all and (max-width: 850px) {
+    main section {
+        width: 100%;
+    }
+    
+}
 
 /* Box Model Hack */
 *{
@@ -10,6 +25,10 @@
 /******************************************
 /* LAYOUT
 /*******************************************/
+html {
+    font-size: 62.5%;
+}
+
 body {
     background-image: url("cloudybackground.jpg");
     background-color: transparent;
@@ -62,3 +81,4 @@ section{
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
