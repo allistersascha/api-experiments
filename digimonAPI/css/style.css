@@ -1,0 +1,97 @@
+/* media queries i guess? */
+@media all and (max-width: 500px) {
+    main, .bottom {
+        width: 100%;
+    }
+    
+}
+
+
+@media all and (max-width: 850px) {
+    main section {
+        width: 100%;
+    }
+    
+}
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+/* HEY get you a layout template for this bad boy */
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-image: url("treebackground.png");
+    background-color: transparent;
+    background-size: cover;
+}
+
+section {
+  display: flex; 
+  justify-content: center; 
+}
+img {
+    border-style: inset;
+    border-width: 9px;
+    border-color: #1b724e;
+    margin-bottom: 30px;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+}
+
+h1 {
+    font-size: 69px;
+}
+
+h2 {
+    font-size: 42px;
+}
+ h3 {
+    font-size: 56px;
+}
+button {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 42px;
+    border: none;
+    background: transparent;
+}
+button:hover {
+    color: white;
+    background: transparent;
+}
+
+footer {
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    font-size: 13px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
